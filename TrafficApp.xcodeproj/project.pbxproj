@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		35C08F1726A93A140079E866 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C08F1626A93A140079E866 /* AppDelegate.swift */; };
+		35C08F1926A93A140079E866 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C08F1826A93A140079E866 /* SceneDelegate.swift */; };
+		35C08F1B26A93A140079E866 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C08F1A26A93A140079E866 /* ViewController.swift */; };
+		35C08F1E26A93A140079E866 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35C08F1C26A93A140079E866 /* Main.storyboard */; };
+		35C08F2026A93A160079E866 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35C08F1F26A93A160079E866 /* Assets.xcassets */; };
+		35C08F2326A93A160079E866 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35C08F2126A93A160079E866 /* LaunchScreen.storyboard */; };
+		35C08F2E26A93A170079E866 /* TrafficAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C08F2D26A93A170079E866 /* TrafficAppTests.swift */; };
+		35C08F3926A93A170079E866 /* TrafficAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C08F3826A93A170079E866 /* TrafficAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		35C08F2A26A93A170079E866 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 35C08F0B26A93A140079E866 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 35C08F1226A93A140079E866;
+			remoteInfo = TrafficApp;
+		};
+		35C08F3526A93A170079E866 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 35C08F0B26A93A140079E866 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 35C08F1226A93A140079E866;
+			remoteInfo = TrafficApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		35C08F1326A93A140079E866 /* TrafficApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrafficApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		35C08F1626A93A140079E866 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		35C08F1826A93A140079E866 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		35C08F1A26A93A140079E866 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		35C08F1D26A93A140079E866 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		35C08F1F26A93A160079E866 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		35C08F2226A93A160079E866 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		35C08F2426A93A160079E866 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35C08F2926A93A170079E866 /* TrafficAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrafficAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		35C08F2D26A93A170079E866 /* TrafficAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficAppTests.swift; sourceTree = "<group>"; };
+		35C08F2F26A93A170079E866 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35C08F3426A93A170079E866 /* TrafficAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrafficAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		35C08F3826A93A170079E866 /* TrafficAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficAppUITests.swift; sourceTree = "<group>"; };
+		35C08F3A26A93A170079E866 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		35C08F1026A93A140079E866 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35C08F2626A93A170079E866 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35C08F3126A93A170079E866 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		35C08F0A26A93A140079E866 = {
+			isa = PBXGroup;
+			children = (
+				35C08F1526A93A140079E866 /* TrafficApp */,
+				35C08F2C26A93A170079E866 /* TrafficAppTests */,
+				35C08F3726A93A170079E866 /* TrafficAppUITests */,
+				35C08F1426A93A140079E866 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		35C08F1426A93A140079E866 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				35C08F1326A93A140079E866 /* TrafficApp.app */,
+				35C08F2926A93A170079E866 /* TrafficAppTests.xctest */,
+				35C08F3426A93A170079E866 /* TrafficAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		35C08F1526A93A140079E866 /* TrafficApp */ = {
+			isa = PBXGroup;
+			children = (
+				35C08F1626A93A140079E866 /* AppDelegate.swift */,
+				35C08F1826A93A140079E866 /* SceneDelegate.swift */,
+				35C08F1A26A93A140079E866 /* ViewController.swift */,
+				35C08F1C26A93A140079E866 /* Main.storyboard */,
+				35C08F1F26A93A160079E866 /* Assets.xcassets */,
+				35C08F2126A93A160079E866 /* LaunchScreen.storyboard */,
+				35C08F2426A93A160079E866 /* Info.plist */,
+			);
+			path = TrafficApp;
+			sourceTree = "<group>";
+		};
+		35C08F2C26A93A170079E866 /* TrafficAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				35C08F2D26A93A170079E866 /* TrafficAppTests.swift */,
+				35C08F2F26A93A170079E866 /* Info.plist */,
+			);
+			path = TrafficAppTests;
+			sourceTree = "<group>";
+		};
+		35C08F3726A93A170079E866 /* TrafficAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				35C08F3826A93A170079E866 /* TrafficAppUITests.swift */,
+				35C08F3A26A93A170079E866 /* Info.plist */,
+			);
+			path = TrafficAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		35C08F1226A93A140079E866 /* TrafficApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35C08F3D26A93A170079E866 /* Build configuration list for PBXNativeTarget "TrafficApp" */;
+			buildPhases = (
+				35C08F0F26A93A140079E866 /* Sources */,
+				35C08F1026A93A140079E866 /* Frameworks */,
+				35C08F1126A93A140079E866 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TrafficApp;
+			productName = TrafficApp;
+			productReference = 35C08F1326A93A140079E866 /* TrafficApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		35C08F2826A93A170079E866 /* TrafficAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35C08F4026A93A170079E866 /* Build configuration list for PBXNativeTarget "TrafficAppTests" */;
+			buildPhases = (
+				35C08F2526A93A170079E866 /* Sources */,
+				35C08F2626A93A170079E866 /* Frameworks */,
+				35C08F2726A93A170079E866 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				35C08F2B26A93A170079E866 /* PBXTargetDependency */,
+			);
+			name = TrafficAppTests;
+			productName = TrafficAppTests;
+			productReference = 35C08F2926A93A170079E866 /* TrafficAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		35C08F3326A93A170079E866 /* TrafficAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35C08F4326A93A170079E866 /* Build configuration list for PBXNativeTarget "TrafficAppUITests" */;
+			buildPhases = (
+				35C08F3026A93A170079E866 /* Sources */,
+				35C08F3126A93A170079E866 /* Frameworks */,
+				35C08F3226A93A170079E866 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				35C08F3626A93A170079E866 /* PBXTargetDependency */,
+			);
+			name = TrafficAppUITests;
+			productName = TrafficAppUITests;
+			productReference = 35C08F3426A93A170079E866 /* TrafficAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		35C08F0B26A93A140079E866 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					35C08F1226A93A140079E866 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					35C08F2826A93A170079E866 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 35C08F1226A93A140079E866;
+					};
+					35C08F3326A93A170079E866 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 35C08F1226A93A140079E866;
+					};
+				};
+			};
+			buildConfigurationList = 35C08F0E26A93A140079E866 /* Build configuration list for PBXProject "TrafficApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 35C08F0A26A93A140079E866;
+			productRefGroup = 35C08F1426A93A140079E866 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				35C08F1226A93A140079E866 /* TrafficApp */,
+				35C08F2826A93A170079E866 /* TrafficAppTests */,
+				35C08F3326A93A170079E866 /* TrafficAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		35C08F1126A93A140079E866 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35C08F2326A93A160079E866 /* LaunchScreen.storyboard in Resources */,
+				35C08F2026A93A160079E866 /* Assets.xcassets in Resources */,
+				35C08F1E26A93A140079E866 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35C08F2726A93A170079E866 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35C08F3226A93A170079E866 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		35C08F0F26A93A140079E866 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35C08F1B26A93A140079E866 /* ViewController.swift in Sources */,
+				35C08F1726A93A140079E866 /* AppDelegate.swift in Sources */,
+				35C08F1926A93A140079E866 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35C08F2526A93A170079E866 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35C08F2E26A93A170079E866 /* TrafficAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35C08F3026A93A170079E866 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35C08F3926A93A170079E866 /* TrafficAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		35C08F2B26A93A170079E866 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 35C08F1226A93A140079E866 /* TrafficApp */;
+			targetProxy = 35C08F2A26A93A170079E866 /* PBXContainerItemProxy */;
+		};
+		35C08F3626A93A170079E866 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 35C08F1226A93A140079E866 /* TrafficApp */;
+			targetProxy = 35C08F3526A93A170079E866 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		35C08F1C26A93A140079E866 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				35C08F1D26A93A140079E866 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		35C08F2126A93A160079E866 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				35C08F2226A93A160079E866 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		35C08F3B26A93A170079E866 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		35C08F3C26A93A170079E866 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		35C08F3E26A93A170079E866 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2C29AR82K2;
+				INFOPLIST_FILE = TrafficApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.leonsoh.TrafficApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		35C08F3F26A93A170079E866 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2C29AR82K2;
+				INFOPLIST_FILE = TrafficApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.leonsoh.TrafficApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		35C08F4126A93A170079E866 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2C29AR82K2;
+				INFOPLIST_FILE = TrafficAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.leonsoh.TrafficAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrafficApp.app/TrafficApp";
+			};
+			name = Debug;
+		};
+		35C08F4226A93A170079E866 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2C29AR82K2;
+				INFOPLIST_FILE = TrafficAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.leonsoh.TrafficAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrafficApp.app/TrafficApp";
+			};
+			name = Release;
+		};
+		35C08F4426A93A170079E866 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2C29AR82K2;
+				INFOPLIST_FILE = TrafficAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.leonsoh.TrafficAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TrafficApp;
+			};
+			name = Debug;
+		};
+		35C08F4526A93A170079E866 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2C29AR82K2;
+				INFOPLIST_FILE = TrafficAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.leonsoh.TrafficAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TrafficApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		35C08F0E26A93A140079E866 /* Build configuration list for PBXProject "TrafficApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35C08F3B26A93A170079E866 /* Debug */,
+				35C08F3C26A93A170079E866 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35C08F3D26A93A170079E866 /* Build configuration list for PBXNativeTarget "TrafficApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35C08F3E26A93A170079E866 /* Debug */,
+				35C08F3F26A93A170079E866 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35C08F4026A93A170079E866 /* Build configuration list for PBXNativeTarget "TrafficAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35C08F4126A93A170079E866 /* Debug */,
+				35C08F4226A93A170079E866 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35C08F4326A93A170079E866 /* Build configuration list for PBXNativeTarget "TrafficAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35C08F4426A93A170079E866 /* Debug */,
+				35C08F4526A93A170079E866 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 35C08F0B26A93A140079E866 /* Project object */;
+}
